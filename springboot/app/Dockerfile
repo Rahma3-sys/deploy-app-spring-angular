@@ -1,4 +1,4 @@
-# Étape 1 : builder avec Maven
+# Étape 1 : builder Maven dans le container
 FROM maven:3.9.1-eclipse-temurin-17 AS build
 WORKDIR /app
 COPY pom.xml .
